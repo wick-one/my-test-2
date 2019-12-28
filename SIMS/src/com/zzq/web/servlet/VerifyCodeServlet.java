@@ -67,9 +67,9 @@ public class VerifyCodeServlet extends HttpServlet {
         String expr = "" + numA + calc + numB + '=' + '?';
         //随机颜色
         graphics.setColor(new Color(
-                rnd.nextInt(255),
-                rnd.nextInt(255),
-                rnd.nextInt(255)
+                rnd.nextInt(244),
+                rnd.nextInt(212),
+                rnd.nextInt(223)
         ));
         //设置字体格式
         graphics.setFont(new Font("微软雅黑", Font.ITALIC, 16));
